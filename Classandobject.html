@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class and object</title>
+</head>
+<body>
+    
+    <script>
+    class Admissionform{
+            submit(){
+                alert("confirm to submit")
+            }
+            cancel(){
+                alert(this.givename + " click to cancel")
+            }
+            fill(givename){
+                this.givename = givename
+            }
+    }
+
+    let mayur = new Admissionform()
+    mayur.fill("mayur")
+    mayur.submit()
+    mayur.cancel()
+    
+    console.log(mayur)
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>We are Exercising!!! DO NOT SLEEP</h2>
+</body>
+<script>
+    const key1 = "hare krishna hare ram hare hare ram hare krishna krishna hare ram";
+
+const  obj = {};
+
+
+for (let x of key1) {
+if (obj[x]) {
+    obj[x] += 1;
+}
+else {
+    obj[x] = 1;
+}
+
+}
+console.log(obj);
+
+const a = 10
+const b = 40
+
+const add = new Function('a','b', console.log(a+b) )
+
+
+const key = "constructor";
+
+const object = {1: "sfd"}
+
+if (object.hasOwnPropery) {   /*object.hasOwnPropery should be use if object is empty*/ 
+    console.log("Hello");
+}
+else{
+    console.log("bye");
+}
+
+if (key in object) {
+    console.log("Hello");
+} else {
+    console.log("bye");
+}
+
+
+
+</script>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>arraymethod</title>
+</head>
+<body>
+    <script>
+
+        
+
+        // let studentdata = [
+        //     Rohan ={
+        //         surname : "Gupta",
+        //         age : 24,
+        //         class : "sec-i"
+        //     },
+        //     Samay ={
+        //         surname : "Saini",
+        //         age : 22,
+        //         class : "sec-ii"
+        //     },
+        //     Jigar ={
+        //         surname : "chandra",
+        //         age : 27,
+        //         class : "sec-iv"
+        //     }
+        // ]
+
+
+        let a = [1,2,3,4,5,6,7]
+        
+        let b = [2,4,7,5,34,67,886,300]
+
+        let c = b.toString() // to convert the array in string
+            console.log(c);
+
+        let joinmethod = b.join("%") // join the array with defined operator
+            console.log(joinmethod);
+        
+        let pushmethod = b.push(6) // show the length of tha array and push the string into array at last
+            console.log(b);
+
+        let popmethod = b.pop() // show the popped value of the array and last value of the array is poppedout
+            console.log(b);
+
+        let shiftmethod = a.shift() // remove the first item of the array
+            console.log(a);
+        
+        let unshiftmethod = a.unshift(346) // add the item at starting of the array
+            console.log(a);
+
+        let concatmethod = a.concat(b) // add the arrays in and create a new array
+            console.log(concatmethod);
+
+        let splicemethod = b.splice(2,4,"mayur" ,"marvaniya") // cut the length from 2 to 4 and created a new array to see the change and add a new item 
+            console.log(b);
+
+        let slicemethod = b.slice(2,3) // cut the length from 2 to 5
+            console.log(slicemethod)
+    </script>
+</body>
+</html>
